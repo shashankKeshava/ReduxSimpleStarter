@@ -11,7 +11,7 @@ const videoList = props => {
 			/>
 		);
 	});
-	return <ul className="list-group">{videoItems}</ul>;
+	return <ul className="list-group col-md-4">{videoItems}</ul>;
 };
 
 export default videoList;
